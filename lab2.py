@@ -22,7 +22,7 @@ class Subclass(LeftSubclass, RightSubclass):
 
 if __name__ == "__main__":
     print("Testare cu apel explicit BaseClass.call_me() in loc de super():")
-    s = Subclass()
+    s = Subclass()lab
     s.call_me("Main")
     
     print("\nOBSERVATIE:")
